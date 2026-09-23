@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Energy Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="simple-header" role="banner">
+    <div class="nav-wrap">
+      <a href="#" class="logo" id="logo-btn" title="Return to Home">
+        <img src="Energy logo.png" alt="Energy logo">
+      </a>
+
+      <!-- Navigation Menu -->
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#" class="nav-link active" data-page="page-home">Home</a></li>
+          <li><a href="#" class="nav-link" data-page="page-about">About Us</a></li>
+          <li><a href="#" class="nav-link" data-page="page-televisions">Televisions</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== PAGE 1: HOME ==================== -->
+    <section id="page-home" class="page-section active-page">
+      <h1 class="centered-heading ack-main-title">Appliance Energy Use in Australia</h1>
+      <p class="centered-text ack-intro">
+        This site gives a simple overview of household appliance energy consumption in the Australian market.
+      </p>
+
+      <article class="information-list">
+        <h2 class="centered-heading section-spacing">Quick Facts</h2>
+        <article class="information-box">
+          <p class="centered-text"><strong>~ Air conditioners and TVs use extended rating scales up to 10 stars for ultra-efficient models.</strong></p>
+          <p class="centered-text"><strong>~ Washing clothes in cold water cuts a washing machine's cycle energy use by up to 90%.</strong></p>
+          <p class="centered-text"><strong>~ Heat pump clothes dryers use roughly half the energy of standard vented dryers.</strong></p>
+        </article>
+      </article>
+    </section>
+
+    <!-- ==================== PAGE 2: ABOUT US ==================== -->
+    <section id="page-about" class="page-section hidden-page">
+      <h1 class="centered-heading ack-main-title">About Us</h1>
+      <p class="centered-text ack-intro">
+        This site gives a simple overview of household appliance energy consumption in the Australian market.
+      </p>
+
+      <article class="information-list">
+        <h2 class="centered-heading section-spacing">Credits</h2>
+        <article class="information-box">
+          <p class="centered-text"><strong>Created by Gloria Arroyo Dabin.</strong></p>
+          <p class="centered-text"><strong>Design colours match the lightning “power” logo.</strong></p>
+          <p class="centered-text"><strong>Experience in Web Development unit helped with the creation of the website and the use of HTML, CSS, and JavaScript.</strong></p>
+          <p class="centered-text"><strong>GEN AI was used to help with debugging.</strong></p>
+        </article>
+      </article>
+    </section>
+
+    <!-- ==================== PAGE 3: TELEVISIONS ==================== -->
+<section id="page-televisions" class="page-section hidden-page">
+  <h1 class="centered-heading ack-main-title">Television Energy Tips</h1>
+
+  <!-- Energy Tips Box -->
+  <article class="information-box">
+    <p><strong>Size &amp; technology matter.</strong> Larger screens and older tech (e.g., plasma) use more energy. Modern LED/LCD and OLED sets are generally more efficient.</p>
+    <ul>
+      <li>Use the TV's <em>Energy Saver</em> or <em>Eco</em> mode and reduce brightness where comfortable.</li>
+      <li>Disable “always-listening” voice features if you don’t use them; they can add standby draw.</li>
+      <li>Consider star rating and annual kWh on the energy label when purchasing.</li>
+    </ul>
+  </article>
+
+  <!-- Data Story Section -->
+  <article class="data-story-section">
+    <h2 class="centered-heading">TV Energy Insights: Data Story</h2>
+    <p class="centered-text">
+      This section presents findings from the Australian Government’s Television Energy Rating dataset. The aim is to help Australian consumers make informed decisions about technology, size, brand, and efficiency.
+    </p>
+
+    <h3 class="centered-heading">Chart 1: What type of TV screen technologies are currently available in Australia and which are the most frequent?</h3>
+
+    <div class="chart-container">
+      <img src="Pie Chart.png" alt="Chart 1: What type of TV screen technologies are currently available in Australia and which are the most frequent???" class="knime-chart-img">
+    </div>
+    <p class="chart-caption">Most TVs in Australia are LCD LED, while OLED is less common.</p>
+  </article>
+
+ <article class="data-story-section">
+    <h3 class="centered-heading">Chart 2:What screen sizes are currently available, and which are the most frequent? </h3>
+
+    <div class="chart-container">
+      <img src="Bar Chart.png" alt="Chart 2: What screen sizes are currently available, and which are the most frequent? " class="knime-chart-img">
+    </div>
+<p class="chart-caption">Most TVs in Australia range between 55 to 75 inches, with mid-to-large screens being the most common choices.</p>
+</article>
+
+<article class="data-story-section">
+ <h3 class="centered-heading">Chart 3 : Which brands have the greatest number of different models?</h3>
+
+    <div class="chart-container">
+      <img src="Bar Chart(1).png" alt="Chart 3: Which brands have the greatest number of different models? " class="knime-chart-img">
+    </div>
+<p class="chart-caption">Kogan, LG and Samsung Electronics have the greatest number of different models in the Australian market.</p>
+  </article>
+
+<article class="data-story-section">
+ <h3 class="centered-heading">Chart 4 : Which type of screen technology consumes the least amount of power?</h3>
+
+    <div class="chart-container">
+      <img src="Bar Chart(2).png" alt="Chart 4: Which type of screen technology consumes the least amount of power? " class="knime-chart-img">
+    </div>
+<p class="chart-caption">LCD TVs consume the least power, while OLEDs use slightly more but offer higher performance.</p>
+  </article>
+
+<article class="data-story-section">
+ <h3 class="centered-heading">Chart 5 : What is the relationship between screen size and power use?</h3>
+
+    <div class="chart-container">
+      <img src="Scatter Plot.png" alt="Chart 5: What is the relationship between screen size and power use? " class="knime-chart-img">
+    </div>
+<p class="chart-caption">Larger TVs use more power so the relationship is clearly positive.</p>
+  </article>
+
+  <article class="data-story-section">
+ <h3 class="centered-heading">Chart 6 : What is the relationship between star rating and screen size?</h3>
+
+    <div class="chart-container">
+      <img src="Scatter Plot (1).png" alt="Chart 6: What is the relationship between star rating and screen size? " class="knime-chart-img">
+    </div>
+<p class="chart-caption">Star ratings are fairly distributed across all screen sizes, showing that larger TVs can still achieve high energy efficiency.</p>
+  </article>
+
+
+  <section class="conclusion-section">
+  <h2 class="conclusion-heading">Conclusion</h2>
+  <p class="conclusion-text">
+    To optimize energy savings, prioritize modern display technologies, check energy labels for higher star ratings, and enable built-in Eco/Energy Saver modes on your television.
+  </p>
+</section>
+
+  </article>
+</section>
+  </main>
+
+  <footer>
+    <section class="footer-content">
+      <p>© 2026 Gloria Arroyo Dabin</p>
+      <p>Built with Web Development experience</p>
+    </section>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
